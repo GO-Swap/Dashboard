@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <meta name="theme-color" content="#152b6e" />
+    <meta property="og:image" content="/logo.jpg" />
+    <meta name="twitter:image" content="/logo.jpg" />
+    <!--
+      AWS S3/CloudFront SPA deploy:
+      - Faça build: npm run build
+      - Suba o conteúdo da pasta dist/ para o bucket S3 (habilite como site estático)
+      - Configure index document: index.html
+      - Configure error document: index.html (para SPA routing)
+      - No CloudFront, aponte para o bucket S3 e ative "Redirect HTTP to HTTPS"
+      - Para cache busting, mantenha assets com hash (default do Vite)
+      - Caminhos de favicon/logo já são absolutos para raiz do domínio
+    -->
+    <title>GO Swap Dashboard</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
