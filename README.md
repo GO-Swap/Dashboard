@@ -1,41 +1,49 @@
 # GO Swap Dashboard
 
-GO Swap Dashboard é uma aplicação web moderna para visualização e interação com dados de swaps, liquidez, tokens e estatísticas de redes blockchain. O projeto foi desenvolvido com React, Vite e TypeScript, focando em responsividade e experiência do usuário.
+GO Swap Dashboard is a modern web application for visualizing and interacting with swap, liquidity, token, and blockchain network statistics data. The project was developed with React, Vite, and TypeScript, focusing on responsiveness and user experience.
 
-## Funcionalidades
-- Visualização de estatísticas de swaps, liquidez, taxas e usuários
-- Listagem e busca de tokens
-- Cards interativos para cada token
-- Modo claro/escuro
-- Menu lateral responsivo com ícones
-- Layout adaptado para desktop e mobile
+## Features
 
-## Tecnologias Utilizadas
-- React
-- TypeScript
-- Vite
-- CSS customizado
-- React Icons
+* Visualization of swap, liquidity, fees, and user statistics
+* Token listing and search
+* Interactive cards for each token
+* Light/Dark mode
+* Responsive sidebar menu with icons
+* Layout optimized for both desktop and mobile
 
-## Como rodar o projeto
-1. Instale as dependências:
+## Technologies Used
+
+* React
+* TypeScript
+* Vite
+* Custom CSS
+* React Icons
+
+## How to Run the Project
+
+1. Install dependencies:
+
    ```bash
    npm install
    ```
-2. Rode o servidor de desenvolvimento:
+2. Start the development server:
+
    ```bash
    npm run dev
    ```
-3. Acesse no navegador:
+3. Open in your browser:
    [http://localhost:5173](http://localhost:5173)
 
-## Build para produção
+## Production Build
+
 ```bash
 npm run build
 ```
-Os arquivos finais estarão na pasta `dist/`.
 
-## Estrutura de Pastas
+The final files will be available in the `dist/` folder.
+
+## Folder Structure
+
 ```
 GO_swap_dashboard/
 ├── public/
@@ -53,8 +61,10 @@ GO_swap_dashboard/
 ├── vite.config.ts
 ```
 
-## Responsividade
-O dashboard é totalmente responsivo, adaptando o layout para diferentes tamanhos de tela, incluindo smartphones.
+## Responsiveness
 
-## Licença
-Este projeto é open source e pode ser utilizado livremente.
+The dashboard is fully responsive, adapting the layout to different screen sizes, including smartphones.
+
+## License
+
+This project is open source and can be freely used.
